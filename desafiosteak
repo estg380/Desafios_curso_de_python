@@ -1,0 +1,20 @@
+temperatura = int(input('QUAL A TEMPERATURA DA CARNE? '))
+
+if temperatura < 48:
+  print('COZINHAR POR MAIS TEMPO')
+
+elif temperatura < 54:
+  print('SELADA')
+  
+elif temperatura < 60:
+  print('AO PONTO PARA MAL')
+  
+elif temperatura < 65:
+  print('AO PONTO')
+  
+elif temperatura < 71:
+  print('AO PONTO PARA O BEM')
+  
+else:
+  print('BEM PASSADA')
+  
